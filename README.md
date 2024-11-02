@@ -1,52 +1,27 @@
-# Toxic-Typer
+### Objective
+***Toxic Typer*** is modified version of ***BDSMTyper*** (Thanks to original creator) I modified BDSMTyper to make the UI more interactive and added a bit more of functionality.
 
-ToxicTyper is a modified version of BDSMTyper, it is a software tool that allows you to copy and paste text on websites where pasting is not allowed. Works perfectly on ACE Editor and supports pasting on any website using the right control key of the keyboard. ToxicTyper is a single executable file that can be run with just one click, without any installation.
+The new added feature is for ***codetantra-sea*** as because as what i noticed that if you run typer first and then codetantra-sea the typer works but you have to close the codetantra application and then copy the content again which is time consuming. So the new feature allows you to copy multiple content and then paste them.
 
-## New Features
+### How to Use
+To install the Typer just run below command and to use the typer it's just simple as the previous on, but slight change now you can copy multiple content and paste them even when the typer is running in background.
 
--   Tabs for multiple copied content
--   Paste multiple content from tabs just by selecting tabs in background.
-
-## How to use new Feature
-
--  Start typer and copy multiple answers
--  Press CTRL+Tab_no. (like CTRL+1) and press shortcut you have set to start typing.
-
-## How to use
-
-1. Download the ToxicTyper executable file from the Releases section of this repository.
-2. Run the ToxicTyper executable file.
-3. In order to paste text on a website where pasting is not allowed, click on START button to activate the ToxicTyper editor.
-4. Copy the text you want to paste on the website to the clipboard.
-5. Click on the right control key of your keyboard to paste the copied text on the website.
-
-## Build
-
-To build ToxicTyper from the source code, you will need to have PyInstaller installed. PyInstaller is a Python package that can be used to convert Python scripts into standalone executable files.
-
-To install PyInstaller, run the following command:
+Just use LCTRL + Num (number corresponding to the tab) and press the set shortcut key.
 
 ```
-pip install pyinstaller
+git clone https://github.com/G0dVai/Toxic-Typer
+cd Toxic-Typer
+pip3 install -r requirement
+python3 main.py
 ```
 
-Once PyInstaller is installed, you can use the build.sh script to build the ToxicTyper executable file. To do so, follow these steps:
+### Features
+- Open Source
+- Interactive UI
+- New Features:
+    - Past from selected tab
+    - Select tab from background using LCTRL + Num
+    - New tab per Unique content copy
 
-1. Open a terminal window and navigate to the root directory of the ToxicTyper project.
-2. Run the following command to make the build.sh script executable:
-
-```
-chmod +x build.sh
-```
-
-3. Run the build.sh script by executing the following command:
-
-```
-./build.sh
-```
-
-4. The build process will start, and once it's complete, you'll find the ToxicTyper executable file in the `dist` directory.
-
-## License
-
-ToxicTyper is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE) for more information.
+###  License
+ToxicTyper is licensed under the GNU General Public License v3.0. See [LICENSE](https://github.com/G0dVai/Toxic-Typer/blob/main/LICENSE) for more information.
