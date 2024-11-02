@@ -19,7 +19,7 @@ python3 main.py
 - Open Source
 - Interactive UI
 - New Features:
-    - Past from selected tab
+    - Paste from selected tab
     - Select tab from background using LCTRL + Num
     - New tab per Unique content copy
 
