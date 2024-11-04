@@ -91,7 +91,7 @@ shortcut_combo.bind("<<ComboboxSelected>>", lambda event: toxic_typer.set_shortc
 shortcut_combo.current(toxic_typer.shortcut_keys.index(toxic_typer.shortcut_key))
 
 line_break_frame = tk.Frame(left_frame)
-line_break_frame.pack(anchor=tk.W, pady=5, padx=20)
+line_break_frame.pack(anchor=tk.W, pady=3, padx=20)
 line_break = tk.BooleanVar(value=toxic_typer.line_break)
 
 tk.Checkbutton(
@@ -108,7 +108,7 @@ tk.Checkbutton(
 ).pack(side=tk.LEFT)
 
 remove_everything_frame = tk.Frame(left_frame)
-remove_everything_frame.pack(anchor=tk.W, padx=20)
+remove_everything_frame.pack(anchor=tk.W, pady=3, padx=20)
 remove_everything = tk.BooleanVar(value=toxic_typer.remove_everything)
 
 tk.Checkbutton(
@@ -125,7 +125,7 @@ tk.Checkbutton(
 ).pack(side=tk.LEFT)
 
 remove_auto_bracket_frame = tk.Frame(left_frame)
-remove_auto_bracket_frame.pack(anchor=tk.W, padx=20)
+remove_auto_bracket_frame.pack(anchor=tk.W, pady=3, padx=20)
 remove_auto_bracket = tk.BooleanVar(value=toxic_typer.remove_auto_brackets)
 
 tk.Checkbutton(
@@ -213,7 +213,7 @@ def update_clipboard_history():
             toxic_typer.set_tabs(clipboard_notebook)
 
     except tk.TclError:
-        print("Error! Try reopening again or install fresh one.")
+        pass
 
     root.after(1000, update_clipboard_history)
 update_clipboard_history()
