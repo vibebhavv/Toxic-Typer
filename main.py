@@ -44,8 +44,8 @@ clipboard_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=(0, 10), pad
 tk.Label(left_frame, text="Toxic Typer", font=("Courier", 30, "bold"), bg="#313131", fg="#eeeeee").pack(anchor=tk.W, padx=(50,0))
 
 # profile text
-profile_link = tk.Label(left_frame, text="Checkout other projects too", fg="yellow", cursor="hand2", bg="#313131")
-profile_link.pack(anchor=tk.W, padx=(70, 0))
+profile_link = tk.Label(left_frame, text="This helping hand is developed by G0dVai", fg="yellow", cursor="hand2", bg="#313131")
+profile_link.pack(anchor=tk.W, padx=(60, 0))
 profile_link.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/G0dVai"))
 
 tk.Label(left_frame, text="Press LCTRL + Num to change Tabs", font=("Arial", 12), bg="#313131", fg="#eeeeee").pack(pady=(5, 0))
