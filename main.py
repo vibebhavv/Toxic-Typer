@@ -1,3 +1,11 @@
+"""
+Author: Vaibhav Pathak
+Github: https://www.github.com/G0dVai
+About: Auto-Typer for codetantra web and codetantra-sea with great features.
+
+[!] Tested on only Windows yet.
+"""
+
 import tkinter as tk
 from tkinter import ttk
 import webbrowser
