@@ -11,7 +11,7 @@ Just use LCTRL + Num (number corresponding to the tab) and press the set shortcu
 ```
 git clone https://github.com/G0dVai/Toxic-Typer
 cd Toxic-Typer
-pip3 install -r requirements
+pip3 install -r requirements.txt
 python3 main.py
 ```
 
