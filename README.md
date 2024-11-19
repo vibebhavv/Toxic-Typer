@@ -15,6 +15,8 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
+For Executable install **pyinstaller** module using `pip3 install pyinstaller` and just run `install.bat` and you will find an executable file in **dist folder**. 
+
 ## Features
 - Open Source
 - Interactive UI
