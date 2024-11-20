@@ -22,7 +22,7 @@ For Executable install **pyinstaller** module using `pip3 install pyinstaller` a
 - Interactive UI
 - New Features:
     - Paste from selected tab
-    - Select tab from background using LCTRL + Num
+    - Select tab from background using LCTRL + Left/Right Arrow
     - New tab per Unique content copy
 
 ##  License
