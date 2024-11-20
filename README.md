@@ -6,7 +6,7 @@ The new added feature is for ***codetantra-sea*** as because as what i noticed t
 ## How to Use
 To install the Typer just run below command and to use the typer it's just simple as the previous on, but slight change now you can copy multiple content and paste them even when the typer is running in background.
 
-Just use LCTRL + Num (number corresponding to the tab) and press the set shortcut key.
+Just use LCTRL + Left/Right Arrow (Left to Right logic) and press the set shortcut key.
 
 ```
 git clone https://github.com/G0dVai/Toxic-Typer
