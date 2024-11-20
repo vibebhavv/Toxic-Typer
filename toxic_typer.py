@@ -68,22 +68,26 @@ class TOXICTyper:
 
     def tab_change(self, key):
         try:
-            # Handle Ctrl key press
+            # Handle Left Ctrl key press
             if key == Key.ctrl_l:
                 self.ctrl_pressed = True
                 return
-            
-            # Handle Ctrl key release
+
+            # Handle Left Ctrl key release
             if hasattr(key, 'name') and key.name == 'ctrl_l':
                 self.ctrl_pressed = False
                 return
 
-            # Handle number keys only when ctrl is pressed
-            if self.ctrl_pressed and hasattr(key, 'vk') and key.vk is not None:
-                # Map virtual key codes for number keys (1-9)
-                if 49 <= key.vk <= 57:  # VK codes for 1-9
-                    index = key.vk - 49  # Convert to 0-based index
-                    self.change_tab(index)
+            # Handle arrow keys when Ctrl is pressed
+            if self.ctrl_pressed:
+                if key == Key.right:
+                    if self.tabs is not None:
+                        current_index = self.tabs.index(self.tabs.select())
+                        self.change_tab(current_index + 1)  # Next tab
+                elif key == Key.left:
+                    if self.tabs is not None:
+                        current_index = self.tabs.index(self.tabs.select())
+                        self.change_tab(current_index - 1)  # Previous tab
         except Exception as e:
             print(f"Error in tab_change: {e}")
 
