@@ -48,7 +48,7 @@ profile_link = tk.Label(left_frame, text="This helping hand is developed by G0dV
 profile_link.pack(anchor=tk.W, padx=(60, 0))
 profile_link.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/G0dVai"))
 
-tk.Label(left_frame, text="Press LCTRL + Num to change Tabs", font=("Arial", 12), bg="#313131", fg="#eeeeee").pack(pady=(5, 0))
+tk.Label(left_frame, text="Press LCTRL + Left/Right Arrow", font=("Arial", 12), bg="#313131", fg="#eeeeee").pack(pady=(5, 0))
 
 tk.Label(left_frame, text="Press shortcut key to paste from the selected tab", font=("Arial", 12), bg="#313131", fg="#eeeeee").pack(pady=(0, 10))
 
