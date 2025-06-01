@@ -1,6 +1,6 @@
 """
 Author: Vaibhav Pathak
-Github: https://www.github.com/G0dVai
+Github: https://www.github.com/vibebhavv
 About: Auto-Typer for codetantra web and codetantra-sea with great features.
 
 [!] Tested on Windows and linux only yet.
@@ -46,7 +46,7 @@ tk.Label(left_frame, text="Toxic Typer", font=("Courier", 30, "bold"), bg="#3131
 # profile text
 profile_link = tk.Label(left_frame, text="This helping hand is developed by G0dVai", fg="yellow", cursor="hand2", bg="#313131")
 profile_link.pack(anchor=tk.W, padx=(60, 0))
-profile_link.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/G0dVai"))
+profile_link.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/vibebhavv"))
 
 tk.Label(left_frame, text="Press LCTRL + Left/Right Arrow", font=("Arial", 12), bg="#313131", fg="#eeeeee").pack(pady=(5, 0))
 
