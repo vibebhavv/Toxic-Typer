@@ -9,7 +9,7 @@ To install the Typer just run below command and to use the typer it's just simpl
 Just use LCTRL + Left/Right Arrow (Left to Right logic) and press the set shortcut key.
 
 ```
-git clone https://github.com/G0dVai/Toxic-Typer
+git clone https://github.com/vibebhavv/Toxic-Typer
 cd Toxic-Typer
 pip3 install -r requirements.txt
 python3 main.py
