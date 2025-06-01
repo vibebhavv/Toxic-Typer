@@ -26,4 +26,4 @@ For Executable install **pyinstaller** module using `pip3 install pyinstaller` a
     - New tab per Unique content copy
 
 ##  License
-ToxicTyper is licensed under the GNU General Public License v3.0. See [LICENSE](https://github.com/G0dVai/Toxic-Typer/blob/main/LICENSE) for more information.
+ToxicTyper is licensed under the GNU General Public License v3.0. See [LICENSE](https://github.com/vibebhavv/Toxic-Typer/blob/main/LICENSE) for more information.
